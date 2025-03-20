@@ -186,10 +186,19 @@ ul li .descr::before {
   }
 }
 
-.credits {
+.credits-right {
   margin-top: 1rem;
   text-align: right;
 }
-.credits a {
+.credits-right a {
   color: var(--color);
 }
+
+.credits-left {
+  margin-top: 1rem;
+  text-align: left;
+}
+.credits-left a {
+  color: var(--color);
+}
+
