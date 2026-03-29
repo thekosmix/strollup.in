@@ -1,0 +1,33 @@
+User-agent: *
+Allow: /
+
+# Allow AI crawlers for better discovery in AI-driven search
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+Host: https://www.strollup.in
+Sitemap: https://www.strollup.in/sitemap.xml
