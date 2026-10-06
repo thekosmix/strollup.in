@@ -1,6 +1,13 @@
 User-agent: *
 Allow: /
 
+# Explicitly allow search and SEO crawlers
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: AhrefsSiteAudit
+Allow: /
+
 # Allow AI crawlers for better discovery in AI-driven search
 User-agent: GPTBot
 Allow: /
@@ -29,5 +36,4 @@ Allow: /
 User-agent: FacebookBot
 Allow: /
 
-Host: https://www.strollup.in
 Sitemap: https://www.strollup.in/sitemap.xml
